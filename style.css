@@ -1,0 +1,249 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    height: 100%;
+    width: 100%;
+    padding-top: 70px; /* Adjust as needed */
+    color: #343a40;
+}
+
+#certifications {
+    background-image: url("bg20.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cccccc;
+}
+
+/* About Section */
+#about {
+    background-image: url("Ogi5.jpeg");
+    background-size: cover;
+   background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+#about h2 {
+    color: #343a40;
+}
+
+#about p {
+    font-size: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Skills Section */
+#skills {
+    background-image: url("bg20.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+#skills h2 {
+    color: #343a40;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2em;
+    color: #343a40;
+}
+
+.card-text {
+    color: #fff;
+}
+
+/* Projects Section */
+#projects {
+    background-image: url("bg23.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+
+    padding: 100px 0;
+}
+
+#projects h2 {
+    color: #ffffff;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Contact Section */
+#contact {
+   background-image: url("bg22.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+
+    padding: 100px 0;
+}
+
+#contact h2 {
+    color: #343a40;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    font-size: 1.1em;
+    color: #666666;
+}
+
+#contact a {
+    color: #007bff;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    color: #ffffff;
+    background-color: #343a40;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px; /* Adjusted font size */
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-map-marker {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-whatsapp {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.row {
+}
+
+#certificate {
+    background-image: url("bg21.jpeg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#education .card {
+    border: none;
+    background-image: url("bg20.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#education .card-body {
+    padding: 20px;
+}
+
+#education .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    background-image: url("bg20.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#education .card-subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.card-text {
+    color: #fff;
+}
+
+#card-title {
+    background-image: url("bg21.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#mb-4s {
+    background-color: #ffa500;
+}
+
+    /*new wala*/
+    #about p {
+    font-size: 20px;
+    background-color: #e0f7fa; /* Light cyan */
+}
+
+#education .card-subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff7043; /* Deep orange */
+}
+
+#mb-4s {
+    background-color: #ffcc80; /* Light orange */
+}
